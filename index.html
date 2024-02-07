@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form Example</title>
+  </head>
+  <form action="/form-handling-url" method="post">
+    <fieldset>
+      <legend>Add User</legend>
+
+      <div>
+        <label for="firstname">First name</label>
+        <input type="text" id="firstName" name="first_name">
+      </div>
+
+      <div>
+        <label for="lastName">Last name</label>
+        <input type="text" id="lastName" name="last_name">
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email_address">
+      </div>
+
+      <div>
+        <label for="status">Status</label>
+        <select id="status" name="user_status_name">
+          <option value="student">Student</option>
+          <option value="instructor">Instructor</option>
+          <option value="guest">Guest</option>
+        </select>
+      </div>git
+
+      <p>
+        <h2>Choose Your Favorite Language</h2>
+      </p>
+      <div>
+          <input type="radio" id="favprogram1" name="fav" value="html" />
+          <label for="favprogram1">Html</label>
+
+          <input type="radio" id="favprogram2" name="fav" value="css" />
+          <label for="favprogram2">Css</label>
+
+          <input type="radio" id="favprogram3" name="fav" value="javascript" />
+          <label for="favprogram3">Javascript</label>
+      </div>
+
+      <div>
+        <label for="comments">Comments</label>
+
+        <textarea id="comments" name="comments" rows="7" cols="33">
+My coding journey has been.....
+        </textarea>
+      </div>
+
+      <div>
+        <label for="current date">Date</label>
+        <input type="date" id="current date" name="current date">
+      </div>
+
+      <div>
+        <input type="checkbox" id="Signup" name="Signup" checked />
+        <label for="signup">Sign Up for Newsletter</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="terms and conditions" name="Terms and conditons" checked />
+        <label for="signup">Agree to terms and conditions</label>
+      </div>
+
+      <div>
+        <button>Submit</button>
+      </div>
+
+    </fieldset>
+  </form>
+</html>
